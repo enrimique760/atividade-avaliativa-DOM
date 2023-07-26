@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+   background-image: url(https://images.hdqwalls.com/download/lamborghini-sian-side-view-lf-1920x1080.jpg);
+  }
+  .content {
+
+   
+    padding: 90px;
+    margin: 80;
+    margin-top: 22vh;
+   
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #170bc5;
+    border-radius: 5px;
+    background-color: #fff;
+  }
+  
+  label, input {
+    margin-bottom: 10px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #e7490b;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #5cf1de;
+  }
+  
+  #result {
+    margin-top: 20px;
+    font-weight: bold;
+    text-align: center;
+  }
